@@ -31,6 +31,7 @@ function deploy(params) {
         params.image ||
         "https://assets.transak.com/images/cryptoCurrency/notcoin_large.jpg",
     },
+    workdir: "onchain",
     outputs: [
       {
         name: "address",
