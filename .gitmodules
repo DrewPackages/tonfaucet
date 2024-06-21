@@ -1,0 +1,6 @@
+[submodule "onchain"]
+	path = onchain
+	url = git@github.com:DrewPackages/minter-contract.git
+[submodule "offchain"]
+	path = offchain
+	url = git@github.com:DrewPackages/ton-minter.git

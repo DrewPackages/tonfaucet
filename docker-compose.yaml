@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build:
+      context: offchain
+      args:
+        REACT_APP_NETWORK: ${NETWORK}
+        REACT_APP_JETTON_ADDRESS: ${TOKEN_ADDRESS}
+    ports:
+      - 3000:80
